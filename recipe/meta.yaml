@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://github.com/bcdev/xarray-enmap/archive/v{{ version }}.tar.gz
-  sha256: 37c342085041b1243cb92cdca2efa2de3caf466e8152b26acb6037274d193c55
+  sha256: 2b550e45a14fde6dc8f17bda748d95f76e14a4aaa187b3449cbb9de1a8e24eb1
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
