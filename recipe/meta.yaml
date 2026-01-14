@@ -1,5 +1,5 @@
 {% set name = "xarray-enmap" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/bcdev/xarray-enmap/archive/v{{ version }}.tar.gz
-  sha256: f16950d7b7b62db40876aaac81b8f28969aee466b23c29fd7b88872aea4f96e1
+  sha256: d9620ec645779201bf9768a4af1538a600a5dd4fe47972cd255701b2381ac4f5
 
 build:
   noarch: python
